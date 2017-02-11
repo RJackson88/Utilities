@@ -6,15 +6,14 @@ import java.util.Map;
 /**
  * Created by rickjackson on 2/10/17.
  */
-class Record<K, V> {
-    private HashMap<Integer, Cell> cells;
+public class Record<K, V> {
     
     public Record() {
-        this.cells = new HashMap<>();
+        
     }
     
     public Record(int initialCapacity, float loadFactor) {
-        this.cells = new HashMap<>(initialCapacity, loadFactor);
+        
     }
     
     public Record(int initialCapacity) {
