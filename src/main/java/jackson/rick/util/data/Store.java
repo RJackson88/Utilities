@@ -11,7 +11,7 @@ import java.util.Map;
  * class in the util.data package.
  *
  * Items are stored in maps with their hash code as the key and their
- * string name as the value for lookup purposes.
+ * string name as the VALUE for lookup purposes.
  */
 public class Store extends HashMap {
     private Map<Integer, Database> databases;

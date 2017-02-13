@@ -3,5 +3,7 @@
  */
 package jackson.rick.util.data;
 
-public interface Cell {
+import java.util.TreeMap;
+
+public class TableMap<K, V> extends TreeMap<K, V> {
 }
